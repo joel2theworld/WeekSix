@@ -1,10 +1,14 @@
-﻿namespace SQ20.Net_Week6_Task
+﻿namespace WeekSix
 {
-    internal class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            //GroupStates.Grouping();
+
+            //AlphabeticalStates.AlphabeticalGrouping();
+
+            //InventorySets.Inventory();
         }
     }
 }

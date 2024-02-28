@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SQ20.Net-Week6-Task")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0dbfaa80a557d1880a0a3431127e6c666ba6344b")]
 [assembly: System.Reflection.AssemblyProductAttribute("SQ20.Net-Week6-Task")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SQ20.Net-Week6-Task")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
