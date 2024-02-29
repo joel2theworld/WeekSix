@@ -2,9 +2,9 @@
 {
     public class InventorySets
     {
-        public static void Inventory(List<Item> itemList, List<Sales> salesList)
+        public static void Inventory()
         {
-            itemList = new List<Item>
+            List<Item> itemList = new List<Item>
             {
                 new Item { ItemId = 1, ItemDes = "Bag" },
                 new Item { ItemId = 2, ItemDes = "Pen" },
@@ -13,7 +13,7 @@
                 new Item { ItemId = 5, ItemDes = "Pin" }
             };
 
-            salesList = new List<Sales>
+            List<Sales> salesList = new List<Sales>
             {
                 new Sales { InvNo = 1, ItemId = 3, Qty = 10 },
                 new Sales { InvNo = 2, ItemId = 2, Qty = 20 },

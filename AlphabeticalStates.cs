@@ -2,10 +2,10 @@
 {
     public class AlphabeticalStates
     {
-        public static void AlphabeticalGrouping(List<string> states)
+        public static void AlphabeticalGrouping()
         {
             // List of 36 states in Nigeria
-            states = new List<string> {
+            List <string> states = new List<string> {
                 "Abia", "Adamawa", "Akwa-Ibom", "Anambra", "Bauchi", "Bayelsa",
                 "Benue", "Borno", "Cross River", "Delta", "Ebonyi", "Edo",
                 "Ekiti", "Enugu", "Gombe", "Imo", "Jigawa", "Kaduna", "Kano",

@@ -4,11 +4,11 @@
     {
         public static void Main(string[] args)
         {
-            //GroupStates.Grouping();
+            GroupStates.Grouping();
 
-            //AlphabeticalStates.AlphabeticalGrouping();
+            AlphabeticalStates.AlphabeticalGrouping();
 
-            //InventorySets.Inventory();
+            InventorySets.Inventory();
         }
     }
 }

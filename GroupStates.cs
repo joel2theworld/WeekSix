@@ -4,9 +4,9 @@ namespace WeekSix
 {
     public class GroupStates
     {
-        public static void Grouping(List<string> states, int n)
+        public static void Grouping()
         {
-            states = new List<string> {
+            List<string> states = new List<string> {
                 "Abia", "Adamawa", "Akwa-Ibom", "Anambra", "Bauchi", "Bayelsa",
                 "Benue", "Borno", "Cross River", "Delta", "Ebonyi", "Edo",
                 "Ekiti", "Enugu", "Gombe", "Imo", "Jigawa", "Kaduna", "Kano",
@@ -17,7 +17,7 @@ namespace WeekSix
 
             // Number of groups
             Console.WriteLine("Enter desired number of groups: ");
-            n = int.Parse(Console.ReadLine()); // Change this to desired number of groups
+            int n = int.Parse(Console.ReadLine()); // Change this to desired number of groups
 
             // Calculate number of states in each group
             int statesPerGroup = states.Count / n;
